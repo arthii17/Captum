@@ -14,7 +14,7 @@ Integrated Gradients -
 ![image](https://github.com/arthii17/Captum/blob/main/Images/IntegratedGradient_Penguin.JPG)
 
 
-Occlusion Graphs(Small & large Window sizes): ![image](https://github.com/arthii17/Captum/blob/main/Images/OcclusionSmall_Penguin.JPG)
+Occlusion Graphs(Large Window sizes):
 ![image](https://github.com/arthii17/Captum/blob/main/Images/OcclusionLarge_Penguin.JPG)
 
 
