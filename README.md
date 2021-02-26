@@ -7,13 +7,13 @@ Here we are interpreting the Resnet model's prediction of images and comparing t
 
 Scenario 1 - Correct Prediction by PyTorch model 
 Here the input image is penguin and the model prediction is "king penguin" as expected. 
-Attribution Outputs-Integrated Gradients:
+Attribution Outputs-Integrated Gradients(Fig 1)
 ![image](https://github.com/arthii17/Captum/blob/main/Images/IntegratedGradient_Penguin.JPG)
  
-Occlusion Graph-Large Window size:
+Occlusion Graph-Large Window size(Fig 2)
 ![image](https://github.com/arthii17/Captum/blob/main/Images/OcclusionLarge_Penguin.JPG)
 
-Occlusion Graphs-Small Window size:
+Occlusion Graphs-Small Window size(Fig 3)
 ![image](https://github.com/arthii17/Captum/blob/main/Images/OcclusionSmall_Penguin.JPG)
 
 
