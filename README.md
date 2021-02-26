@@ -5,6 +5,15 @@ Captum helps ML researchers more easily implement interpretability algorithms th
 
 Here we are interpreting the Resnet model's prediction of images and comparing the resuts using attribution techniques such as 'Integrated Gradients' & 'Occlusion' provided by Captum. 
 
+Scenario 1 - Correct Prediction by PyTorch model 
+
+Here the input image is penguin and the model prediction is "king penguin" as expected. 
+
+Attribution Outputs: 
+Integrated Gradients - 
+![image](https://github.com/arthii17/Captum/blob/main/Images/IntegratedGradient_Penguin.JPG)
+
+
 
 
 
