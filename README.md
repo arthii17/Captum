@@ -5,7 +5,8 @@ Captum helps ML researchers more easily implement interpretability algorithms th
 
 Here we are interpreting the Resnet model's prediction of images and comparing the resuts using attribution techniques such as 'Integrated Gradients' & 'Occlusion' provided by Captum. 
 
-Scenario 1 - Correct Prediction by PyTorch model 
+Scenario 1 - Correct Prediction by PyTorch model.
+
 Here the input image is penguin and the model prediction is "king penguin" as expected. 
 
 Attribution Outputs Integrated Gradients 
@@ -17,7 +18,8 @@ Occlusion Graph Large Window size
 Occlusion Graph Small Window size
 ![image](https://github.com/arthii17/Captum/blob/main/Images/OcclusionSmall_Penguin.JPG)
 
-Scenario 2 - Incorrect Prediction by PyTorch model 
+Scenario 2 - Incorrect Prediction by PyTorch model. 
+
 Here the input image is of swan but the model wrongly interprets it as penguin. In scenarios like this, captum's attribution graphs are very helpful to figure out why the model wrongly interpreted it and where was it actually looking at. Let us see the outputs of Integrated gradients graph and occlusion graphs to figure out why it identified swan as penguin. 
 
 Attribution Outputs Integrated Gradients 
