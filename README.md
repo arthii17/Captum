@@ -10,13 +10,15 @@ Scenario 1 - Correct Prediction by PyTorch model
 Here the input image is penguin and the model prediction is "king penguin" as expected. 
 
 Attribution Outputs: 
-Integrated Gradients - 
 ![image](https://github.com/arthii17/Captum/blob/main/Images/IntegratedGradient_Penguin.JPG)
+Integrated Gradients - 
 
 
-Occlusion Graphs(Large Window sizes):
 ![image](https://github.com/arthii17/Captum/blob/main/Images/OcclusionLarge_Penguin.JPG)
+Occlusion Graph(Large Window size):
 
+![image](https://github.com/arthii17/Captum/blob/main/Images/OcclusionSmall_Penguin.JPG)
+Occlusion Graphs(Small Window size):
 
 
 
